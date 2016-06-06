@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChallengeActivities.CaseSwapChallenge"
+    android:background="#4d4646">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Case Swap"
+        android:id="@+id/textView10"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="27dp"
+        android:typeface="serif"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:id="@+id/textView15"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_toEndOf="@+id/textView10"
+        android:typeface="serif"
+        android:textSize="28dp"
+        android:textColor="#facd3b" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:id="@+id/textView16"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_toStartOf="@+id/textView10"
+        android:textColor="#facd3b"
+        android:textSize="28dp"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenge"
+        android:id="@+id/textView17"
+        android:typeface="serif"
+        android:textSize="19dp"
+        android:textColor="#facd3b"
+        android:layout_below="@+id/textView16"
+        android:layout_alignStart="@+id/textView10" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.5"
+        android:id="@+id/textView18"
+        android:textColor="#bdb6a1"
+        android:textSize="19dp"
+        android:layout_alignTop="@+id/textView17"
+        android:layout_toEndOf="@+id/textView17"
+        android:typeface="sans" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caseEditText"
+        android:layout_marginTop="63dp"
+        android:hint="Type And We Will Swap The Case"
+        android:typeface="serif"
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:textColorHint="#dbdbd9"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:textColor="#dbdbd9" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButtSC"
+        android:src="@mipmap/locked"
+        android:background="#00ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SwapCaseTextView"
+        android:textSize="20dp"
+        android:typeface="serif"
+        android:textColor="#facd3b"
+        android:hint="Results Will Be Shown Here"
+        android:textColorHint="#bdb6a1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:phoneNumber="true" />
+
+</RelativeLayout>
