@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ChallengeActivities.RevWordInPlaceChallenge"
+    android:background="#4d4646">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ArlsLong"
+        android:textColor="#f9dc7f"
+        android:textColorHint="#f9dc7f"
+        android:hint="Ars Longa Vita Brevis"
+        android:textSize="22dp"
+        android:phoneNumber="false"
+        android:typeface="serif"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reverse Words In Place"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="27dp"
+        android:typeface="serif"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:id="@+id/textView29"
+        android:textSize="28dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:textColor="#facd3b"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="|"
+        android:id="@+id/textView30"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:textSize="28dp"
+        android:textColor="#facd3b"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenge"
+        android:id="@+id/textView31"
+        android:layout_marginStart="77dp"
+        android:typeface="serif"
+        android:textSize="19dp"
+        android:textColor="#facd3b"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.9"
+        android:id="@+id/textView32"
+        android:layout_alignBottom="@+id/textView31"
+        android:layout_toEndOf="@+id/textView31"
+        android:textColor="#bdb6a1"
+        android:textSize="19dp"
+        android:typeface="sans" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginBottom="61dp"
+        android:layout_above="@+id/ArlsLong"
+        android:layout_centerHorizontal="true"
+        android:hint="Grrrlikestaquitos Is The Name"
+        android:textSize="23dp"
+        android:textColor="#dbdbd9"
+        android:textColorHint="#dbdbd9"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G>^V"
+        android:id="@+id/GButton"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#dbdbd9"
+        android:background="#00ffffff"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:enabled="true"
+        android:clickable="true" />
+
+</RelativeLayout>
